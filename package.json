@@ -1,0 +1,31 @@
+{
+  "name": "challenge2016",
+  "version": "1.0.0",
+  "description": "qube cinema coding challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugendarkumar/challenge2016.git"
+  },
+  "author": "ugi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugendarkumar/challenge2016/issues"
+  },
+  "homepage": "https://github.com/ugendarkumar/challenge2016#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  }
+}
